@@ -24,6 +24,8 @@ gccでコードをコンパイルするコマンド<br>
 コンパイルしたコードを実行するコマンド<br>
 ### exit 
 プロセスを終了する.ログアウトする.<br>
+### pwd 
+現在の作業ディレクトリを表示するコマンド, /home/vagrant/workspace/cpp-study cpp-studyで作業しているときはこんな感じで表示される.
 
 ## Vagrantのコマンド
 ### vagrant up
