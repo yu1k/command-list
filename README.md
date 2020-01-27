@@ -6,26 +6,28 @@
 だいたい コマンド --helpすれば表示される.<br>
 シェルにコマンドやファイル名を入力するときは3文字くらい入力したら,タブ補完を使うと便利.
 
-### history
+### $history
 コマンド入力履歴が見れる<br>
-### ls
+### $ls
 今いる階層の中身(？)が表示される<br>
-### cd hoge
+### $cd hoge
 ディレクトリ移動<br>
-### mkdir hoge
+### $mkdir hoge
 ディレクトリ作成<br>
-### touch hege.hoge
+### $touch hege.hoge
 ファイルのタイムスタンプを更新, 指定したファイルがない場合は、サイズが0のファイルが作成される<br>
-### vim hoge.hoge
+### $vim hoge.hoge
 vimでファイルを編集できる<br>
-### g++ -o hoge hoge.hoge
+### $g++ -o hoge hoge.hoge
 gccでコードをコンパイルするコマンド<br>
-### ./hoge
+### $./hoge
 コンパイルしたコードを実行するコマンド<br>
-### exit 
+### $exit 
 プロセスを終了する.ログアウトする.<br>
-### pwd 
+### $pwd 
 現在の作業ディレクトリを表示するコマンド, /home/vagrant/workspace/cpp-study cpp-studyで作業しているときはこんな感じで表示される.
+### $mv hoge.c ../fuga/
+hoge.cがいまhogeディレクトリにあるとする.このコマンドを使えばfugaディレクトリに移動できる.
 
 ## Vagrantのコマンド
 ### vagrant up
