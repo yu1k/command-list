@@ -14,6 +14,8 @@
 ディレクトリ移動<br>
 ### $mkdir hoge
 ディレクトリ作成<br>
+### $cat hoge.hoge
+ファイルを連結するためのコマンド.ファイルの内容を表示することができる.<br>
 ### $touch hege.hoge
 ファイルのタイムスタンプを更新, 指定したファイルがない場合は、サイズが0のファイルが作成される<br>
 ### $vim hoge.hoge
@@ -28,6 +30,15 @@ gccでコードをコンパイルするコマンド<br>
 現在の作業ディレクトリを表示するコマンド, /home/vagrant/workspace/cpp-study cpp-studyで作業しているときはこんな感じで表示される.
 ### $mv hoge.c ../fuga/
 hoge.cがいまhogeディレクトリにあるとする.このコマンドを使えばfugaディレクトリに移動できる.
+### $clear 
+シェルをクリア(？)して見やすくできる<br>
+### $node hoge.js
+hoge.cがいまhogeディレクトリにあるとする.このコマンドを使えばfugaディレクトリに移動できる.
+NodeでJavaScriptのコードが実行できる.<br>
+### $python hoge.py
+Pythonで書いたコードが実行できる.<br>
+### $ruby hoge.rb
+Rubyのコードが実行できる<br>
 
 ## Vagrantのコマンド
 ### vagrant up
@@ -40,6 +51,8 @@ hoge.cがいまhogeディレクトリにあるとする.このコマンドを使
 仮想環境のシステムを終了する
 
 # ネットワーク
+### $ping IPアドレス　
+pingした相手先のホストが生きてるか確認できる.<br>
 ### stat hoge
 ファイルのタイムスタンプを表示<br>
 ### nslookup ドメイン
