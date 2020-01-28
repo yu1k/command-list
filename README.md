@@ -20,6 +20,8 @@
 ファイルのタイムスタンプを更新, 指定したファイルがない場合は、サイズが0のファイルが作成される<br>
 ### $vim hoge.hoge
 vimでファイルを編集できる<br>
+### $rm -r hoge
+ファイルやディレクトリを削除できる<br>
 ### $g++ -o hoge hoge.hoge
 gccでコードをコンパイルするコマンド<br>
 ### $./hoge
@@ -41,30 +43,30 @@ Pythonで書いたコードが実行できる.<br>
 Rubyのコードが実行できる<br>
 
 ## Vagrantのコマンド
-### vagrant up
+### $vagrant up
 仮想環境を起動する<br>
-### vagrant status
+### $vagrant status
 仮想環境のステータスを確認する<br>
-### vagrant ssh
+### $vagrant ssh
 仮想環境にsshするコマンド
-### vagrant halt
+### $vagrant halt
 仮想環境のシステムを終了する
 
 # ネットワーク
 ### $ping IPアドレス　
 pingした相手先のホストが生きてるか確認できる.<br>
-### stat hoge
+### $stat hoge
 ファイルのタイムスタンプを表示<br>
-### nslookup ドメイン
+### $nslookup ドメイン
 IPアドレスを調べる<br>
-### nmap IPアドレス
+### $nmap IPアドレス
 ポートスキャンできる
-### netstat
+### $netstat
 ホストのネットワーク統計や状態を確認するコマンド<br>
-### tcpdump
+### $tcpdump
 通信のパケットをキャプチャし、その結果を出力する<br>
-### tcpdump -nn port xxx
+### $tcpdump -nn port xxx
 ポートを指定できる<br>
-### tcpdump -nn -x port xxx
+### $tcpdump -nn -x port xxx
 -xをつけるとパケットの中身も表示<br>
 ###
