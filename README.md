@@ -52,6 +52,29 @@ Rubyのコードが実行できる<br>
 ### $vagrant halt
 仮想環境のシステムを終了する
 
+## gitのコマンド
+### $git clone https://github.com/hoge
+リポジトリのクローン
+### $git status
+何を更新したか確認する
+### $git add.
+gitを予約(?
+### $git commit -m "何を更新したか"
+gitにコミット, 
+### $git push origin master
+gitにpushする.
+
+## gitに自分の情報を登録
+### git config --global user.name "あなたの名前"
+名前を登録.
+### git config --global user.email あなたのメールアドレス
+メールアドレスを登録.
+### git config --global core.editor "vim"
+エディタを登録.
+### git config -l
+登録内容を確認できる
+
+
 # ネットワーク
 ### $ping IPアドレス　
 pingした相手先のホストが生きてるか確認できる.<br>
