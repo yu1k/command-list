@@ -59,6 +59,8 @@ Rubyのコードが実行できる<br>
 何を更新したか確認する
 ### $git add.
 gitを予約(?
+#### $git reset 
+git addを取り消せる
 ### $git commit -m "何を更新したか"
 gitにコミット, 
 ### $git push origin master
