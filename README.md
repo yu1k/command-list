@@ -76,6 +76,8 @@ git addを取り消せる
 gitにコミット, 
 ### $git push origin master
 gitにpushする.
+### $git log
+gitの履歴を表示. qを押して終了.
 
 ## gitに自分の情報を登録
 ### git config --global user.name "あなたの名前"
