@@ -72,6 +72,8 @@ Rubyのコードが実行できる<br>
 gitを予約(?
 #### $git reset 
 git addを取り消せる
+### $git reset --hard HEAD^
+直前のgit commitを取り消せる.
 ### $git commit -m "何を更新したか"
 gitにコミット, 
 ### $git push origin master
