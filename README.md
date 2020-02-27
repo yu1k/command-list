@@ -109,7 +109,7 @@ IPアドレスを調べる<br>
 ポートを指定できる<br>
 ### $tcpdump -nn -x port xxx
 -xをつけるとパケットの中身も表示<br>
-### $ipconfig
+### $ifconfig
 ネットワークの設定が確認できる.IPアドレスを確認したいときによく使う.<br>
 
 ## tmux
