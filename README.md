@@ -44,6 +44,8 @@ NodeでJavaScriptのコードが実行できる.<br>
 Pythonで書いたコードが実行できる.<br>
 ### $ruby hoge.rb
 Rubyのコードが実行できる<br>
+### $screenfetch
+Linuxのディストリビューションのロゴをアスキーアートで表示.
 
 ## grep
 特手の文字を含む行を抽出する.
