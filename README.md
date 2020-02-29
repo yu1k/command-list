@@ -59,9 +59,9 @@ Rubyのコードが実行できる<br>
 ### $vagrant status
 仮想環境のステータスを確認する<br>
 ### $vagrant ssh
-仮想環境にsshするコマンド
+仮想環境にsshするコマンド.
 ### $vagrant halt
-仮想環境のシステムを終了する
+仮想環境のシステムを終了する.
 
 ## gitのコマンド
 ### $git clone https://github.com/hoge
@@ -125,6 +125,26 @@ mangleテーブル : TOS（Type Of Service)フィールド等の値を書き換�
 Rawテーブル : mangleテーブルのように特定のパケットにマークを付ける役割. Rawテーブルでは追跡を除外するようマークを付けられる.<br>
 特定の通信をファイアウォールで処理せずに他へ通したりといった経路の制御をする場合に利用.<br>
 テンプレート : https://www.atmarkit.co.jp/flinux/index/indexfiles/iptablesindex.html
+
+## ファイアウォール
+### $sudo ufw status
+ファイアウォールが設定されているか. 表示 : active || inactive
+### $sudo ufw allow [任意のポート番号]
+ポートを開放できる.
+### $sudo ufw reload
+ファイアウォールを再起動できる.
+### $sudo ufw enable
+システムでファイアーウォールを有効にする.
+### $sudo ufw disable
+システムでファイアーウォールを無効にする.
+### $sudo ufw default DENY
+すべてのポートを閉じる.
+### $sudo ufw default ALLOW
+すべてのポートを開く.
+## ファイアウォール開放手順
+#### $sudo ufw allow [任意のポート]
+#### $sudo ufw reload
+#### $sudo ufw status
 
 ## tmux
 ### $tmux 
