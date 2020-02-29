@@ -104,6 +104,8 @@ gitにコミット,
 gitにpushする.
 ### $git log
 gitの履歴を表示. qを押して終了.
+### git remote -v
+リモートリポジトリ名が表示される.
 
 ## gitに自分の情報を登録
 ### git config --global user.name "あなたの名前"
