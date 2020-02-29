@@ -62,6 +62,8 @@ Rubyのコードが実行できる<br>
 仮想環境にsshするコマンド.
 ### $vagrant halt
 仮想環境のシステムを終了する.
+### $vagrant reload
+仮想環境のシステムを再起動できる.
 
 ## gitのコマンド
 ### $git clone https://github.com/hoge
