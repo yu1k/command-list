@@ -157,6 +157,7 @@ Rawテーブル : mangleテーブルのように特定のパケットにマー�
 ファイアウォールが設定されているか. 表示 : active || inactive
 ### $sudo ufw allow [任意のポート番号]
 ポートを開放できる.
+### $sudo ufw deny [任意のポート番号]
 ### $sudo ufw reload
 ファイアウォールを再起動できる.
 ### $sudo ufw enable
