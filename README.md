@@ -106,6 +106,9 @@ gitにpushする.
 gitの履歴を表示. qを押して終了.
 ### git remote -v
 リモートリポジトリ名が表示される.
+### git remote show origin
+Gitのリモートリポジトリの更新を確認できる.
+実行結果の最終行に(up to date)と表示されていれば最新.(local out of date)と表示されていればローカルの方が古い.
 
 ## gitに自分の情報を登録
 ### git config --global user.name "あなたの名前"
