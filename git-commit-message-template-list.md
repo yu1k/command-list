@@ -14,7 +14,7 @@ Gitにコミットするときのコミットメッセージのテンプレー�
 削除した場合.
 ### $git commit -m "remove : hoge.md"
 削除した場合.
-### $git commit -m "cleate : ファイル名"
+### $git commit -m "create : ファイル名"
 新しいファイルを作った場合.
 ### $git commit -m "fix : Item of hogehoge"
 項目を追加した場合など.
