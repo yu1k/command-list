@@ -156,7 +156,7 @@ Rawテーブル : mangleテーブルのように特定のパケットにマー�
 テンプレート : https://www.atmarkit.co.jp/flinux/index/indexfiles/iptablesindex.html
 
 ## ARP
-#### arp -a
+#### $arp -a
 ARPテーブルの表示
 
 ## ファイアウォール
