@@ -197,6 +197,9 @@ ARPテーブルの表示
 ### $sudo timedatectl set-timezone Asia/Tokyo
 タイムゾーンを初期設定のUTCからAsia/Tokyoに変更.
 
+### $cat /etc/group | grep sudo
+権限の確認
+
 ## tmux
 ### $tmux 
 tmuxを起動
