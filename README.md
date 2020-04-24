@@ -183,6 +183,20 @@ ARPテーブルの表示
 #### $sudo ufw reload
 #### $sudo ufw status
 
+
+## Ubuntu初期設定
+### $sudo locale-gen ja_JP.UTF-8
+日本語環境を作成.
+
+### $echo export LANG=ja_JP.UTF-8 >> ~/.profile
+マシンを起動に日本語環境で起動する設定.
+
+### $source ~/.profile
+反映させる.
+
+### $sudo timedatectl set-timezone Asia/Tokyo
+タイムゾーンを初期設定のUTCからAsia/Tokyoに変更.
+
 ## tmux
 ### $tmux 
 tmuxを起動
