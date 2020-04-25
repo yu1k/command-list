@@ -200,6 +200,16 @@ ARPテーブルの表示
 ### $cat /etc/group | grep sudo
 権限の確認
 
+## パスワード変更
+### $passwd
+自分自身のパスワードを変更できる.
+
+### $passwd username
+パスワードを変更できる. このコマンドはrootユーザーのみ実行できる.
+
+### $passwd -S
+パスワードの状態を表示する.
+
 ## tmux
 ### $tmux 
 tmuxを起動
