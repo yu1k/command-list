@@ -114,6 +114,8 @@ Gitのリモートリポジトリの更新を確認できる.
 実行結果の最終行に(up to date)と表示されていれば最新.(local out of date)と表示されていればローカルの方が古い.
 ### $git pull
 リモートとローカルを同期する.
+### $git revert HEAD
+直前のcommitを取り消す.
 
 ## gitに自分の情報を登録
 ### git config --global user.name "あなたの名前"
