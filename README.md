@@ -162,6 +162,20 @@ Rawテーブル : mangleテーブルのように特定のパケットにマー�
 特定の通信をファイアウォールで処理せずに他へ通したりといった経路の制御をする場合に利用.<br>
 テンプレート : https://www.atmarkit.co.jp/flinux/index/indexfiles/iptablesindex.html
 
+## SSHを使ってファイル転送
+
+### $ sftp user@hostname
+最初にリモート側で公開鍵の登録をする。
+セッションが開始したあと、
+### $ get hoge.txt
+sftpセッションが開始したあと、このコマンドを実行すると、hoge.txtというファイルをダウンロードできる。
+
+### $ put hoge.txt
+sftpセッションが開始したあと、このコマンドを実行すると、hoge.txtというファイルをアップロードできる。
+
+### $ exit
+sftpセッションを終了できる。
+
 ## ARP
 #### $arp -a
 ARPテーブルの表示
