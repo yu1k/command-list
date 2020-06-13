@@ -195,7 +195,29 @@ xxxxの部分にサーバーのIDの番号を入力する。
 ### $ speedtest --list | grep Japan
 日本のサーバーの一覧を確認できる。
 
+## ファイル
 
+### $ mkfile xx hoge.txt 
+指定したサイズの空のファイルを作成できる。
+
+xxの部分にファイルのサイズを入力する。
+
+### 単位 
+
+>  b
+
+Byte
+
+> k
+
+KB
+
+> m
+
+MB
+> g
+
+GB
 
 ## ARP
 #### $arp -a
