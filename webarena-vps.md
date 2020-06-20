@@ -24,7 +24,7 @@ SSH鍵の選択では、好きなSSH鍵を選ぶ。インスタンス名を入�
 
 インスタンスを起動後、
 
-### ssh -i ~/.ssh/private_txt -p {sshで使用するポート} user@hostname
+### $ssh -i ~/.ssh/private_txt -p {sshで使用するポート} user@hostname
 
 で、ssh接続ができる。
 
