@@ -24,5 +24,5 @@ ToDo : あとでかく
 
 ## 接続
 
-### $ ssh -i ~/.ssh/authorized_keys -p {ssh接続で使用するポート} user@hostname
+### $ ssh -i ~/.ssh/{秘密鍵のファイル} -p {ssh接続で使用するポート} user@hostname
 このコマンドでリモート側にssh接続をする
