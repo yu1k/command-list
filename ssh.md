@@ -16,9 +16,13 @@ ToDo : あとでかく
 
 コマンドで公開鍵ファイルに、権限を与えておく。
 
-/home/user/.ssh は0700
+### クライアント側
 
-/home/user/.ssh/authorized_keys は0600
+/home/user/.ssh/ は700
+
+### リモート側
+
+/home/user.ssh/authorized_keys は600
 
 となるような権限にしておく。
 
