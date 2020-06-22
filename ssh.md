@@ -10,6 +10,12 @@ ToDo : あとでかく
 
 公開鍵を 接続される側(サーバー側)のホームディレクトリの下の階層である ~/.ssh に設置する必要がある。 .ssh がない場合は新しく作成する。
 
+ファイル転送
+
+```
+$ scp -P 22 ~/.ssh/id_rsa.pub user@hostname:.ssh/authorized_keys
+```
+
 接続する側(リモコン側)で作成した公開鍵を、サーバー側に authorized_keys ファイルを作成し、そこに書き込む。
 
 ### $ chmod 600 ~/.ssh/authorized_keys
