@@ -12,6 +12,8 @@
 
 # VSCode
 
+Google Chromeでもこの方法を使えます。
+
 ## 文字サイズ変更
 
 環境 : macOS, JIS配列のキーボード
