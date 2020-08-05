@@ -40,6 +40,10 @@ ssdd_configの、
 
 に書き換える。
 
+### $ sudo /etc/init.d/ssh restart
+
+sshdのサービスを再起動させる。
+
 SSHで使うポート、rootユーザでのSSH接続の設定は必要に応じて変える。
 
 
