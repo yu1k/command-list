@@ -115,7 +115,7 @@ $ /etc/init.d/ssh restart
 
 SSHで使うポート、rootユーザでのSSH接続の設定は必要に応じて変える。
 
-### TODO
+## TODO
 
 - root でログインできないようにする
 
