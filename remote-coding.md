@@ -6,48 +6,9 @@
 
 リモートマシン : Ubuntu18.04 LTS
 
-### 認証
+この [設定](https://github.com/yu1k/note/blob/master/ssh-config.md) を完了してある。
 
-SSHキーペアは作成してある。
-
-公開鍵は、リモートマシンの ~/.ssh/においてある。
-
-### パーミッション設定
-
-クライアントマシンの秘密鍵が入ったファイルに700の権限を渡してある。
-
-リモートマシンの公開鍵のファイルに600の権限を渡してある。
-
-# つぎ
-
-パスワード認証を禁止してある
-
-### $sudo su
-
-上のコマンドで、rootではいれる。
-
-### vim /etc/ssh/sshd_config
-
-で、sshd_configを開く。
-
-ssdd_configの、
-
-```PasswordAuthentication yes```
-
-から、
-
-```PasswordAuthentication no```
-
-に書き換える。
-
-### $ sudo /etc/init.d/ssh restart
-
-sshdのサービスを再起動させる。
-
-SSHで使うポート、rootユーザでのSSH接続の設定は必要に応じて変える。
-
-
-## はじめに
+## VSCodeでの設定方法
 
 VSCodeでRemote Development拡張をインストールします。
 
