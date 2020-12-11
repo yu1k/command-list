@@ -75,3 +75,11 @@ $ yarn --help
 上のコマンドで yarn の使い方が表示されます。
 
 以上で yarn のインストールが完了しました。
+
+## おまけ
+
+また、 VSCode + VSCodeのターミナル からリモート環境に対してSSH接続し、プログラミングをする場合、以下の設定をすると便利になるかもしれません。
+
+- [SSHの設定](https://github.com/yu1k/note/blob/master/ssh-config.md)
+
+- [VPSやリモートサーバ、仮想マシン などの開発環境に対してSSHで接続して、VSCodeでコードを書けるようにします](https://github.com/yu1k/note/blob/master/remote-coding.md)
