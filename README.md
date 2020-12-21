@@ -161,9 +161,9 @@ Gitのブランチを確認できる。-r オプションをつけると、リ�
 
 ### $ git checkout -b yu1k-remote origin/yu1k-remote
 
-git ですでに存在している yu1k-remote というブランチに切り替えたい場合、 `$ git checkout -b yu1k-remote` では、すでにリモートに存在している yu1k-remote には切り替えられない。新しい、yu1k-remote というブランチが作成されてしまう。
+git でリモートリポジトリにすでに存在している yu1k-remote というブランチに切り替えたい場合、 `$ git checkout -b yu1k-remote` では、すでにリモートに存在している yu1k-remote には切り替えられない。新しい、yu1k-remote というブランチがローカルに作成されてしまう。
 
-しかし、上記のコマンドを使用すれば、gitのリモートリポジトリにすでに存在している yu1k-remote というブランチに切り替えられる。
+しかし、上記のコマンドを使用すれば、gitのリモートリポジトリにすでに存在している yu1k-remote というブランチにローカルで切り替えられる。
 
 ### $ git checout [任意のブランチ名]
 
