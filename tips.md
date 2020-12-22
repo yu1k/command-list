@@ -43,7 +43,9 @@ commandキー + マイナスキー（-）
 
 Controlキー + Shiftキー + @キー
 
-# Google カレンダーの共有設定
+# Googleのサービス
+
+## カレンダーの共有設定
 
 - デフォルトの共有設定はカレンダーを共有している相手以外には公開されない
 
@@ -52,3 +54,5 @@ Controlキー + Shiftキー + @キー
 https://support.google.com/calendar/answer/34580
 
 - カレンダーの設定は 左側のマイカレンダーの名前にカーソルを合わせると 縦の3点印（？）をクリックし、設定を選ぶと設定画面にいける。
+
+## Google Analyticsの設定
