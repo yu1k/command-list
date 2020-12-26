@@ -29,3 +29,11 @@ $ alter role postgres with password 'ここにパスワードを入力';
 ```
 
 パスワードを変更します。　`ALTER ROLE` と表示されれば成功です。
+
+## データベースの作成
+
+```
+$ create database hoge;
+```
+
+このコマンドで、 `hoge` という名前のデータベースが作成されます。　`CREATE DATABASE` という表示がされれば、データベースの作成をすることができました。
