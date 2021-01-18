@@ -95,6 +95,4 @@ https://support.google.com/calendar/answer/34580
 
 打ち消し線を使用したいときは、打ち消ししたい文字列を選択し、 `command + Shift + X` で打ち消し線を入れることができる。
 
-例:
-
-~~hoge~~
+例: ~~hoge~~
