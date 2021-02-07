@@ -104,4 +104,4 @@ https://support.google.com/calendar/answer/34580
 
 # VirtualBox
 
-VirtualBoxにインストールしたデスクトップ版Ubuntuでパイプを打ち込みたい場合、 Shiftキー + ]キーをタイプすると、打ち込める。
+VirtualBoxにインストールしたデスクトップ版Ubuntuでパイプを打ち込みたい場合、 `Shiftキー` + `]キー` をタイプすると、打ち込める。
