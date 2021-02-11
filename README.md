@@ -82,6 +82,26 @@ OSで利用しているプロセスの数や状態、またOS全体のシステ�
 ### $iostat
 I/Oデバイスの使用状況を表示する.
 
+## マシンの性能確認
+
+```
+$ grep "physical id" /proc/cpuinfo | sort -u | wc -l
+```
+
+物理CPUの数を確認
+
+```
+$ grep "cpu cores" /proc/cpuinfo | sort -u | sed "s/.*: //"
+```
+
+CPUのコアの数を確認
+
+```
+$ grep "processor" /proc/cpuinfo | wc -l
+```
+
+CPUのスレッドの数を確認
+
 
 ## grep
 特手の文字を含む行を抽出する.
