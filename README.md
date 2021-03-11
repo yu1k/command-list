@@ -156,6 +156,8 @@ $ git diff
 
 コミットと作業ツリーの内容を比較する。
 
+`git add` する前に追加したものや削除したものを確認するために使用できそう。
+
 #### $git reset 
 git addを取り消せる
 ### $git reset --hard HEAD^
