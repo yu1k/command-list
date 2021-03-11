@@ -149,6 +149,13 @@ find [ファイル名 or ディレクトリ名]
 何を更新したか確認する
 ### $git add.
 gitを予約(?
+
+```
+$ git diff
+```
+
+コミットと作業ツリーの内容を比較する。
+
 #### $git reset 
 git addを取り消せる
 ### $git reset --hard HEAD^
