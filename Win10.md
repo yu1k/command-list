@@ -70,3 +70,9 @@ copy nul hoge.txt
 
 空ファイル作成
 
+```
+>del hoge.txt
+```
+
+`rm` コマンド
+
