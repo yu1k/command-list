@@ -63,3 +63,10 @@ cd
 ```
 
 `clear` コマンド
+
+```
+copy nul hoge.txt
+```
+
+空ファイル作成
+
