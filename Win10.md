@@ -53,7 +53,7 @@ Windowsコマンド対応リスト
 `mkdir` コマンド
 
 ```
-cd
+>cd
 ```
 
 `cd` コマンド
@@ -65,7 +65,7 @@ cd
 `clear` コマンド
 
 ```
-copy nul hoge.txt
+>copy nul hoge.txt
 ```
 
 空ファイル作成
