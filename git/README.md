@@ -3,6 +3,7 @@
 ## 目次
 
 - [ブランチ削除](https://github.com/yu1k/note/blob/master/git/README.md#%E3%83%96%E3%83%A9%E3%83%B3%E3%83%81%E5%89%8A%E9%99%A4)
+- [開発用ブランチにデフォルトブランチの最新バージョンを取り込む]()
 
 ### デフォルトブランチを変えた場合
 
@@ -47,4 +48,22 @@ $ git branch -D [branch]
 
 ローカルブランチの削除
 
+### 開発用ブランチにデフォルトブランチの最新バージョンを取りこむ
+
+mainをデフォルトブランチとする
+
+development を開発用ブランチとする
+
+1. $ git checkout main
+2. $ git pull origin main
+
+mainブランチへ移動し、 `git pull` でリモートの最新バージョンをローカルに持ってくる
+
+3. $ git checkout development
+
+developmentブランチへ移動
+
+4. $ git merge origin main
+
+main ブランチの内容を development ブランチへ取り込む
 
