@@ -110,3 +110,9 @@ https://support.google.com/calendar/answer/34580
 VirtualBoxにインストールしたデスクトップ版Ubuntuでパイプを打ち込みたい場合、 `Shiftキー` + `]キー` をタイプすると、打ち込める。
 
 `*` を入力したい場合、`Shiftキー` + `８キー`をタイプする。
+
+# ネットワーク
+
+`$ curl ipconfig.io`
+
+で自分のIPアドレスを表示させる
